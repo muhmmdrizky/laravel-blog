@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-</head>
-
-<body>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/blog">Blog</a>
-        <a href="/contact">Contact</a>
-    </nav>
-    <h1>Welcome to About Page.</h1>
-</body>
-
-</html>
+<x-layout>
+    <x-slot:title>{{ $title }}</x-slot:title>
+    <h3>This is About Page</h3>
+</x-layout>
